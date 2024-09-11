@@ -1,0 +1,37 @@
+1. Descrição do Problema e Contexto
+O objetivo deste projeto é analisar a popularidade das linguagens de programação Python, Java e C++ ao longo do tempo, utilizando dados semanais de abril de 2019 a abril de 2024. A análise visa identificar como a popularidade de cada linguagem evolui, se existem padrões sazonais, quais linguagens são mais populares em diferentes períodos e se há uma tendência clara de aumento ou diminuição na popularidade.
+
+A importância dessa análise reside em entender as mudanças no mercado de desenvolvimento de software, que pode influenciar decisões estratégicas para desenvolvedores e empresas. Ao identificar tendências e padrões, podemos prever demandas futuras e adaptar estratégias de acordo com as preferências do mercado.
+
+2. Análise Exploratória dos Dados
+A análise exploratória dos dados envolve as seguintes etapas:
+   1. Leitura dos Dados: Carregamento do arquivo CSV contendo a popularidade semanal das linguagens Python, Java e C++.
+   2. Visão Geral: Inspeção das primeiras linhas do conjunto de dados para entender o formato e o conteúdo. Verificação dos tipos de dados e estatísticas descritivas para cada coluna.
+   3. Visualização Inicial: Criação de gráficos de linha para visualizar a evolução da popularidade de cada linguagem ao longo do tempo.
+   4. Análise de Dados Faltantes: Verificação de valores ausentes e tratamento, se necessário.
+
+3. Descrição do Processo de Pré-processamento de Dados
+O processo de pré-processamento de dados inclui:
+  1. Conversão de Data: A coluna de datas foi convertida para o formato datetime e configurada como índice do DataFrame.
+  2. Verificação de Dados: Inspeção e tratamento de dados ausentes ou inconsistentes. Garantir que todos os dados estejam no formato adequado para análise temporal.
+  3. Transformação dos Dados: Para análises sazonais e médias móveis, os dados foram agrupados por mês para calcular a média e o desvio padrão mensal.
+  4. Preparação para Modelagem: Divisão dos dados em conjuntos de treinamento e teste, se aplicável, para análises futuras, como modelagem preditiva.
+
+4.  Descrição do Modelo de Análise Utilizado
+Para analisar a popularidade das linguagens de programação, foram utilizadas as seguintes técnicas:
+  1. Decomposição Sazonal: Utilização da decomposição sazonal para identificar componentes de tendência, sazonalidade e resíduos nas séries temporais de popularidade.
+  2. Média Móvel: Aplicação de médias móveis de curto e longo prazo para suavizar os dados e identificar tendências subjacentes.
+  3. Análise de Sazonalidade: Cálculo de médias e desvios padrão mensais para explorar flutuações sazonais e padrões ao longo dos meses.
+
+5. Avaliação do Desempenho do Modelo
+A avaliação do desempenho do modelo é realizada através das seguintes etapas:
+  1. Análise Gráfica: Observação dos gráficos de tendência, sazonalidade e médias móveis para interpretar visualmente a popularidade das linguagens.
+  2. Identificação de Padrões: Identificação de padrões sazonais e tendências de longo prazo. Comparação da popularidade entre as linguagens em diferentes períodos e estações do ano.
+  3. Resumo Estatístico: Análise das médias mensais e desvios padrão para quantificar variações sazonais e avaliar a consistência das tendências.
+
+6. Conclusões e Recomendações
+  - Tendências de Popularidade: A análise revelou que Python tem mostrado uma tendência crescente de popularidade, enquanto Java e C++ apresentaram variações mais significativas. Python continua a ser a linguagem mais popular ao longo do período analisado.
+  - Padrões Sazonais: Identificamos padrões sazonais nas tendências de popularidade, com algumas variações notáveis em diferentes estações do ano. Essas variações podem estar relacionadas a fatores como eventos de tecnologia, conferências ou lançamentos de novos produtos.
+  - Comparação de Linguagens: Em diferentes períodos, Python foi consistentemente mais popular do que Java e C++. Java e C++ apresentaram picos de popularidade em períodos específicos, mas a tendência geral foi de menor crescimento em comparação com Python.
+  - Recomendações: Para desenvolvedores e empresas, recomenda-se focar em Python devido à sua crescente popularidade e ampla adoção. No entanto, manter-se atualizado sobre as tendências das outras linguagens pode ser benéfico, especialmente para setores específicos onde Java ou C++ ainda são relevantes.
+
