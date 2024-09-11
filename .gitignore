@@ -1,0 +1,18 @@
+```gitignore
+# Ignorar arquivos de compilação
+*.pyc
+*.pyo
+__pycache__/
+
+# Ignorar ambientes virtuais
+venv/
+env/
+
+# Ignorar arquivos de configuração do Jupyter Notebook
+.ipynb_checkpoints/
+
+# Ignorar arquivos de log
+*.log
+
+# Ignorar arquivos de dados temporários
+*.csv
