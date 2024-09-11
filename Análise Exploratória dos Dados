@@ -1,1 +1,5 @@
-
+A análise exploratória dos dados envolve as seguintes etapas:
+   1. Leitura dos Dados: Carregamento do arquivo CSV contendo a popularidade semanal das linguagens Python, Java e C++.
+   2. Visão Geral: Inspeção das primeiras linhas do conjunto de dados para entender o formato e o conteúdo. Verificação dos tipos de dados e estatísticas descritivas para cada coluna.
+   3. Visualização Inicial: Criação de gráficos de linha para visualizar a evolução da popularidade de cada linguagem ao longo do tempo.
+   4. Análise de Dados Faltantes: Verificação de valores ausentes e tratamento, se necessário.
