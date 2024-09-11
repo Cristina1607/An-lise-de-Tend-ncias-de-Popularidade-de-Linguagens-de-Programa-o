@@ -1,1 +1,5 @@
+A avaliação do desempenho do modelo é realizada através das seguintes etapas:
+  1. Análise Gráfica: Observação dos gráficos de tendência, sazonalidade e médias móveis para interpretar visualmente a popularidade das linguagens.
+  2. Identificação de Padrões: Identificação de padrões sazonais e tendências de longo prazo. Comparação da popularidade entre as linguagens em diferentes períodos e estações do ano.
+  3. Resumo Estatístico: Análise das médias mensais e desvios padrão para quantificar variações sazonais e avaliar a consistência das tendências.
 
