@@ -1,1 +1,5 @@
-
+O processo de pré-processamento de dados inclui:
+  1. Conversão de Data: A coluna de datas foi convertida para o formato datetime e configurada como índice do DataFrame.
+  2. Verificação de Dados: Inspeção e tratamento de dados ausentes ou inconsistentes. Garantir que todos os dados estejam no formato adequado para análise temporal.
+  3. Transformação dos Dados: Para análises sazonais e médias móveis, os dados foram agrupados por mês para calcular a média e o desvio padrão mensal.
+  4. Preparação para Modelagem: Divisão dos dados em conjuntos de treinamento e teste, se aplicável, para análises futuras, como modelagem preditiva.
