@@ -1,1 +1,4 @@
+  1. Decomposição Sazonal: Utilização da decomposição sazonal para identificar componentes de tendência, sazonalidade e resíduos nas séries temporais de popularidade.
+  2. Média Móvel: Aplicação de médias móveis de curto e longo prazo para suavizar os dados e identificar tendências subjacentes.
+  3. Análise de Sazonalidade: Cálculo de médias e desvios padrão mensais para explorar flutuações sazonais e padrões ao longo dos meses.
 
