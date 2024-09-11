@@ -1,1 +1,4 @@
 O objetivo deste projeto é analisar a popularidade das linguagens de programação Python, Java e C++ ao longo do tempo, utilizando dados semanais de abril de 2019 a abril de 2024. A análise visa identificar como a popularidade de cada linguagem evolui, se existem padrões sazonais, quais linguagens são mais populares em diferentes períodos e se há uma tendência clara de aumento ou diminuição na popularidade.
+
+A importância dessa análise reside em entender as mudanças no mercado de desenvolvimento de software, que pode influenciar decisões estratégicas para desenvolvedores e empresas. Ao identificar tendências e padrões, podemos prever demandas futuras e adaptar estratégias de acordo com as preferências do mercado.
+
